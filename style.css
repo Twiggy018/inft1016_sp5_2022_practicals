@@ -19,6 +19,7 @@
 @media screen, print {
     body {
         background-color: var(--c-background-color);
+        color: var(--base-font-color);
     }
     
     header {
@@ -54,13 +55,13 @@
         gap: 28.5%; 
     }
 
-    aside h2 {
+    aside {
         color: var(--c-green);
     }
-    aside ul li a {
-        color: var(c-red);
+    aside a {
+        color: var(--c-red);
     }
-    aside ul li a.hover {
+    aside a:hover{
         color: var(--c-blue);
     }
 }

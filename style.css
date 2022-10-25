@@ -58,6 +58,7 @@
 
     aside {
         color: var(--c-green);
+        float: right;
     }
     aside a {
         color: var(--c-red);

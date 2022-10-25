@@ -27,6 +27,7 @@
         color: var(--c-yellow);
         background-color: var(--c-background-highlights);
         text-size: 150%;
+        padding-top: 50px
     }
 
     footer {
@@ -52,7 +53,7 @@
         list-style: none;
         text-align: center;
         display: flex;
-        gap: 28.5%; 
+        gap: 24%; 
     }
 
     aside {
@@ -64,6 +65,23 @@
     aside a:hover{
         color: var(--c-blue);
     }
+
+    html {
+        max-width: 800px;
+
+    }
+    h2 {
+        padding-top: 50px;
+    }
+
+    h3 {
+        padding-top: 50px;
+    }
+
+    article {
+        max-width: 350px;
+    }
 }
+
 
 

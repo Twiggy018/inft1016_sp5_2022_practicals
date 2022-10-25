@@ -25,6 +25,7 @@
         text-align: center;
         color: var(--c-yellow);
         background-color: var(--c-background-highlights);
+        text-size: 150%;
     }
 
     footer {

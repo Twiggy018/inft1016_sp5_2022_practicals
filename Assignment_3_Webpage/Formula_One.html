@@ -2,14 +2,17 @@
 <html>
     <head>
         <title>The Use of Computer Technology in Formula One</title>
+        <button type="button"
+            onclick="dark_button()" "id=darkID">
+            Toggle Theme
+        </button>
+        <script>
+            
+        </script>
     </head>
 
     <main>
         <body>
-            <button type="button">
-                
-
-            </button>
             <h2>Leaders in Development</h2>
             <p>Formula One, the leading motorsport competition globally, is a pioneer of computational developments with respect to motorsport and, even, all sports. Computers are heavily used throughout all aspects of Formula One, and as such, in order to get the best out of the cars and the drivers, teams have put countless time and money in the development of state of the art technology.</p>
             <a data-flickr-embed="true" href="https://www.flickr.com/photos/stefantell/2566502929" title="McLaren F1-car at Anderstorp"><img src="https://live.staticflickr.com/3263/2566502929_ccc19c7f0f.jpg" width="500" height="332" alt="McLaren F1-car at Anderstorp"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
@@ -18,7 +21,7 @@
             
             <button type="button"
                 onclick="show()" "id=btnID">
-                Computer Simulation of F1 Aerodynamics by AlbertsFlyStudios
+                Aerodynamic Simulation
             </button>
         
             <script>
@@ -32,15 +35,15 @@
             <img id="image2" src="">
 
             <button type="button"
-                onclick="show()" "id=btnID">
-                Malaysian Grand Prix by Morio
+                onclick="show2()" "id=btnID2">
+                Malaysian Grand Prix
             </button>
         
             <script>
-                function show() {
+                function show2() {
                     let image = document.getElementById("image2");
                     image.src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/2010_Malaysian_GP_opening_lap.jpg/800px-2010_Malaysian_GP_opening_lap.jpg?20100407144138"
-                    document.getElementById("btnID").style.display = "none";
+                    document.getElementById("btnID2").style.display = "none";
                 }
             </script>
         </body>
